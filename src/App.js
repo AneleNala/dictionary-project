@@ -5,12 +5,10 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-    <h1 className="text-center">DICTIONARY</h1>
+    <h1 className="text-center">Dictionary</h1>
       </header>
-      <main>
-        <Dictionary/>
-      </main>
-      <footer className="text-center">
+        <Dictionary defaultKeyword="hello"/>
+      <footer className="App-footer">
         This is coded by Anele open sourced on GitHub
       </footer>
     </div>

@@ -1,3 +1,23 @@
+body {
+  background: white;
+}
+
+.App {
+  background: white;
+}
+
+.App-header {
+  margin: 30px 0;
+}
+
 .App h1 {
-  margin: 50px 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 1.5;
+}
+
+.App-footer {
+  text-align: center;
+  margin: 30px 0;
 }
